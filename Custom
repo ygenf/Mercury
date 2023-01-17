@@ -41,7 +41,7 @@ local Library = {
 		},
 		Light = {
 			Main = Color3.fromRGB(240, 240, 240),
-			Secondary = Color3.fromRGB(227, 227, 227),
+			Secondary = Color3.fromRGB(148, 148, 148),
 			Tertiary = Color3.fromRGB(36, 36, 36),
 
 			StrongText = Color3.fromHSV(0, 0, 1),		

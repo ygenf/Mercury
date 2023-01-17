@@ -39,18 +39,18 @@ local Library = {
 			StrongText = Color3.fromHSV(0, 0, 1),		
 			WeakText = Color3.fromHSV(0, 0, 172/255)
 		},
-		Dark2 = {
-			Main = Color3.fromRGB(37, 35, 33),
-			Secondary = Color3.fromRGB(65, 63, 63),
-			Tertiary = Color3.fromRGB(23, 23, 23),
-
-			StrongText = Color3.fromHSV(0, 0, 1),		
-			WeakText = Color3.fromHSV(0, 0, 172/255)
-		},
 		Serika = {
 			Main = Color3.fromRGB(50, 52, 55),
 			Secondary = Color3.fromRGB(80, 82, 85),
 			Tertiary = Color3.fromRGB(226, 183, 20),
+
+			StrongText = Color3.fromHSV(0, 0, 1),		
+			WeakText = Color3.fromHSV(0, 0, 172/255)
+		},
+		Dark2 = {
+			Main = Color3.fromRGB(37, 35, 33),
+			Secondary = Color3.fromRGB(65, 63, 63),
+			Tertiary = Color3.fromRGB(23, 23, 23),
 
 			StrongText = Color3.fromHSV(0, 0, 1),		
 			WeakText = Color3.fromHSV(0, 0, 172/255)
@@ -893,7 +893,7 @@ function Library:create(options)
 	settingsTab:keybind{
 		Name = "Toggle Key",
 		Description = "Key to show/hide the UI.",
-		Keybind = Enum.KeyCode.Delete,
+		Keybind = Enum.KeyCode.RightShift,
 		Callback = function()
 			self.Toggled = not self.Toggled
 			Library:show(self.Toggled)

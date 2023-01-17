@@ -36,7 +36,7 @@ local Library = {
 			Secondary = Color3.fromHSV(240/360, 40/255, 63/255),
 			Tertiary = Color3.fromHSV(260/360, 60/255, 148/255),
 
-			StrongText = Color3.fromHSV(0, 0, 172/255),		
+			StrongText = Color3.fromHSV(0, 0, 1),		
 			WeakText = Color3.fromHSV(0, 0, 172/255)
 		},
 		Dark2 = {
@@ -913,7 +913,7 @@ function Library:create(options)
 		Name = "UI Drag Speed",
 		Description = "How smooth the dragging looks.",
 		Max = 20,
-		Default = 5,
+		Default = 14,
 		Callback = function(value)
 			Library.DragSpeed = (20 - value)/100
 		end,
@@ -930,7 +930,6 @@ function Library:create(options)
 	creditsTab:credit{Name = "Abstract", Description = "UI Library Developer", Discord = "Abstract#8007", V3rmillion = "AbstractPoo"}
 	creditsTab:credit{Name = "Deity", Description = "UI Library Developer", Discord = "Deity#0228", V3rmillion = "0xDEITY"}
 	creditsTab:credit{Name = "Repository", Description = "UI Library Repository", Github="https://github.com/deeeity/mercury-lib/blob/master/src.lua"}
-	creditsTab:credit{Name = "ygenf", Description = "Script Dev", Discord = "ygenf#2004", V3rmillion = "ygenf"}
 
 	return mt
 end

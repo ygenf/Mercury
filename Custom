@@ -32,12 +32,12 @@ local HTTPService = game:GetService("HttpService")
 local Library = {
 	Themes = {
 		White = {
-			Main = Color3.fromRGB(54, 54, 54),
-			Secondary = Color3.fromRGB(0, 255, 0),
-			Tertiary = Color3.fromRGB(23, 23, 23),
+			Main = Color3.fromRGB(255, 255, 255),
+			Secondary = Color3.fromRGB(235, 235, 235),
+			Tertiary = Color3.fromRGB(0, 0, 0),
 
 			StrongText = Color3.fromHSV(0, 0, 0),		
-			WeakText = Color3.fromHSV(0 , 0 ,9)
+			WeakText = Color3.fromHSV(0 , 0 , 0)
 		},
 		Vaporwave = {},
 		OperaGX = {},

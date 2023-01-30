@@ -31,13 +31,13 @@ local HTTPService = game:GetService("HttpService")
 
 local Library = {
 	Themes = {
-		RGB = {
-			Main = Color3.fromRGB(255, 0, 0),
+		White = {
+			Main = Color3.fromRGB(54, 54, 54),
 			Secondary = Color3.fromRGB(0, 255, 0),
-			Tertiary = Color3.fromRGB(0, 0, 255),
+			Tertiary = Color3.fromRGB(23, 23, 23),
 
 			StrongText = Color3.fromHSV(0, 0, 0),		
-			WeakText = Color3.fromHSV(0 , 0 ,0)
+			WeakText = Color3.fromHSV(0 , 0 ,9)
 		},
 		Vaporwave = {},
 		OperaGX = {},
